@@ -1,0 +1,114 @@
+body {
+    background-color: #777777;
+}
+
+.everything {
+    margin:0 auto 0 auto;
+    text-align:center;
+    /* border:5px solid red; */
+
+}
+
+.head {
+    /* border:5px solid red; */
+    background-color: #ebebeb;
+    color: #777777;
+    /* height: 94px; */
+    width: 940px;
+    margin-bottom:10px;
+    display:inline-block;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+nav {
+    /* border:5px solid red; */
+    background-color: #ebebeb;
+    color: #777777;
+    /* height: 94px; */
+    width: 940px;
+    display:inline-block;
+    margin-bottom: 20px;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+#blarg {
+    /* border:5px solid purple; */
+    display:flex;
+    justify-content: center;
+    /* margin:auto;
+    float:left;     */
+}
+
+
+section {
+    /* border:5px solid red; */
+    background-color: #ebebeb;
+    color: #777777;
+    height: 287px;
+    width: 515px;
+}
+
+#sectiontext {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+
+
+article {
+    /* border:5px solid red; */
+    justify-content:center;
+    background-color: #777777;
+    color: #ebebeb;
+    height: 192px;
+    width: 495px;
+    margin-left:10px;
+}
+.h1box {
+    /* border:5px solid red; */
+    background-color: #ebebeb;
+    color: #777777;
+    /* height: 54px; */
+    width: 448px;
+    /* padding:0 auto 0 auto; */
+    margin-left:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.paragraph {
+    /* border:5px solid red; */
+    background-color: #ebebeb;
+    color: #777777;
+    /* height: 54px; ((Removing the Height is making this 
+    element scale dynamically, I think))*/
+    width: 448px;
+    margin-left:20px;
+    /* For some reason, making the padding as 1px is adding a 
+    TON more padding than just 1px. Why is this?? */
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+aside {
+    /* border:5px solid red; */
+    background-color: #ebebeb;
+    color: #777777;
+    /* height: 287px; */
+    width: 404px;
+    margin-left:21px;
+    padding-top:40px;
+    padding-bottom:230px;
+}
+footer {
+    /* border:5px solid red; */
+    background-color: #ebebeb;
+    color: #777777;
+    /* height: 94px; */
+    width: 940px;
+    margin-top:20px;
+    margin-bottom:10px;
+    display:inline-block;
+    padding-top:30px;
+    padding-bottom:30px;
+}
