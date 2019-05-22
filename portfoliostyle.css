@@ -1,0 +1,62 @@
+#topframe {
+    padding-bottom: 90px;
+    background-color:white;
+    position:relative;
+}
+
+
+#topframe-content {
+    width:960px;
+    margin:0 auto;
+}
+
+
+
+#nameplate {
+    /* border: 5px solid red; */
+    padding: 10 10 0 10;
+    background-color:teal;
+    color:white;
+    width: 250px;
+    height:90px;
+    float:left;
+    text-align:center;
+    margin:0 auto;
+    font-size:36px;
+    /* BLACK MAGIC FLEXBOX STUFF */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* BLACK MAGIC, BLACK MAGIC */
+    
+}
+
+
+#content {
+    width:960px;
+    background-color:white;
+    height:auto;
+    text-align:center;
+    margin:0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+body {
+    margin:auto;
+
+}
+
+#topframe-links {
+    float:right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Content Div contains everything centered
+Float can be used to put things to the left or right of the centered area */
