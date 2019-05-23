@@ -1,5 +1,5 @@
 #topframe {
-    padding-bottom: 90px;
+    /* padding-bottom: 90px; */
     background-color:white;
     position:relative;
 }
@@ -47,16 +47,63 @@
   }
 body {
     margin:auto;
-
+    padding:auto;
 }
 
 #topframe-links {
     float:right;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-top: 25px;
+    vertical-align:middle;
+    text-size-adjust:13px;
+    color:gray;
+
+
 }
 
+
+#topframe-about {
+    left: 20px;
+    border-right: 1px solid gray;
+    padding-right:20px;
+}
+
+
+#topframe-portfolio {
+    border-right: 1px solid gray;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#topframe-contact {
+    /* border-right: 1px solid gray; */
+    padding-left: 20px;
+}
+
+
+.navbar {
+    padding: 0 1rem;
+}
+
+
+a {
+    color:gray;
+    font-size:20px;
+    text-decoration:none;
+}
+
+a:active {
+    background-color:purple;
+}
+
+a:hover {
+    background-color:orange;
+    /* font-weight: bolder; */
+}
+a:focus {
+    background-color:teal;
+    /* font-weight: bolder; */
+}
 
 /* Content Div contains everything centered
 Float can be used to put things to the left or right of the centered area */
