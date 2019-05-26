@@ -160,6 +160,62 @@ body {
 
 
 
+.image {
+    position:relative;
+    padding:5px;
+    z-index 0;
+}
+
+h2 span {
+    color:white;
+    font: bold 24px;
+    letter-spacing: -1px;
+    background: rgb(0,0,0); /* fallback color */
+    background: rgba(0,0,0, 0.7);
+    position:absolute;
+    padding: 10px;
+    top:200px;
+    left:0;
+    width:100%;
+}
+
+.text-block {
+    position:absolute;
+    bottom:20px;
+    width:275px;
+    text-align:center;
+    background-color:teal;
+    color:white;
+    /* padding:20 auto 20 auto; */
+    padding-top: 20px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 20px;
+}
+
+
+/* #pic1 {
+    margin:0;
+}
+
+#pic2 {
+    right: 20px;
+} */
+
+#text1 {
+    left:10px;
+    z-index 1;
+}
+
+#text2 {
+    right:323px;
+    z-index 2;
+}
+
+#text3 {
+    right:34px;
+    z-index 3;
+}
 
 
 
@@ -177,6 +233,7 @@ body {
     bottom:0;
     width:100%;
 }
+
 
 
 

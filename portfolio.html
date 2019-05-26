@@ -4,11 +4,15 @@
 
     </head>
     <body background="http://www.webdesigndev.com/wp-content/uploads/2015/02/Subtle-Light-Tile-Pattern-Vol2.jpg">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="reset.css">
         <link rel="stylesheet" type="text/css" href="portfoliostyle.css">
         <!-- Week 1 Homework -->
-        <!-- Create a padded area at the top. Use a Z-index floated area, to make it float ABOVE the background image. -->
-        <div id="topframe">
+         <div id="topframe">
+        <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
             <div id="topframe-content">
                 <div id="nameplate">    
                     <h1>
@@ -16,17 +20,75 @@
                     </h1>
                 </div>
                 <div id="topframe-links">
-                    <a href="about.html">About</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="contact.html">Contact</a>
+                    <div id="topframe-about">
+                        <a href="about.html">About</a>
+                    </div>
+                    <div id="topframe-portfolio">
+                        <a href="portfolio.html">Portfolio</a>
+                    </div>
+                    <div id="topframe-contact">
+                        <a href="contact.html">Contact</a>
+                    </div>
                 </div>
             </div>
+        </nav>
         </div>
-        <audio src="looping_radio_mix.mp3" autoplay controls preload="auto"></audio>
+        <!-- <audio src="looping_radio_mix.mp3" autoplay controls preload="auto"></audio> -->
 
     <div id="content">
-        This is the main body of the content!
+        <!-- This is the main body of the content! -->
+
+        <div id="aboutme"> 
+                    Portfolio
+
+        </div>
+
+        <div id="divider">
+
+        </div>
+
+        <hr id="hr"/>
+
+
+        <div class="image">
+
+                <img class="image" src="stock1.jpg" alt="" id="pic1"/>
+                <div class="text-block" id="text1">
+                    Shocked Child
+
+                </div>
+    
+                <img class="image" src="stock2.jpg" alt="" id="pic2"/>
+                <div class="text-block" id="text2">
+                        Smiling Old Man
+    
+                    </div>
+            <!-- <br> -->
+                <img class="image" src="stock3.jpg" alt="" id="pic3"/>
+                <div class="text-block" id="text3">
+                        Landscape
+    
+                </div>
+
+        </div>
+    
+        
+
+
+
     </div>
 
+    
+
+
+
+
+
     </body>
+
+        <footer id="footer">
+            Scott Finlay © 2019
+        </footer>
+
+
 </html>
